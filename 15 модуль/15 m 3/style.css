@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.chat-window {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #000;
+  padding: 10px;
+  overflow-y: auto;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.message-input {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.send-button,
+.location-button {
+  padding: 5px 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
